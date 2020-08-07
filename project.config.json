@@ -28,6 +28,7 @@
 	"projectname": "firstapp",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"libVersion": "2.11.3",
 	"condition": {
 		"search": {
 			"current": -1,

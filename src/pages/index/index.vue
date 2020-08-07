@@ -2,16 +2,20 @@
  * @Date: 2020-05-19 15:21:59
  * @writer: 黄道长
  * @LastEditors: hlq
- * @LastEditTime: 2020-07-13 09:59:13
+ * @LastEditTime: 2020-07-15 11:28:59
  -->
 <template>
 	<div style="height:100vh">
+		<div class="homeImg"></div>
 		<i-row>
 			<i-card title="7月目标：96斤"
 							extra="苏苏"
-							thumb="http://i1.fuimg.com/722759/e6813664a5bc0639.jpg"
+							thumb="https://img3.doubanio.com/view/photo/m/5DpfCqw-7yK1_4YSpTVm3Q/219397741/x2614100162.jpg"
 							i-class="susu">
-				<view slot="content">未完成惩罚机制：全家三天小萝卜</view>
+				<view slot="content">
+					<p>惩罚机制：全家三天小萝卜</p>
+					<p>奖励机制：奶茶一杯</p>
+				</view>
 				<view slot="footer"
 							style="color:blue"
 							@click="handleClick">编辑</view>
@@ -82,8 +86,24 @@
 		width: 100%;
 		height: 100%;
 	}
+	.i-card-body {
+		background-image: url('https://img9.doubanio.com/view/photo/l/9CBT9Tmo9D4X88qr6bwv-Q/219397741/x2614105265.jpg');
+    background-repeat:no-repeat;
+    background-size:60%
+	}
 	.susu image {
 		width: 30px;
 		height: 30px;
+	}
+	.homeImg {
+		width: 100%;
+		height: 35vh;
+		background: url("https://img3.doubanio.com/view/photo/m/-csgjLsUB0ErFKhsVi36dw/219397741/x2614100160.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position-x: 0;
+		background-position-y: 48%;
+		border-radius: 0 0 80% 80%;
+		margin-bottom: 5%;
 	}
 </style>
