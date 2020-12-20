@@ -2,13 +2,13 @@
  * @Date: 2020-05-19 15:21:59
  * @writer: 黄道长
  * @LastEditors: hlq
- * @LastEditTime: 2020-07-15 11:28:59
+ * @LastEditTime: 2020-12-20 21:47:41
  -->
 <template>
 	<div style="height:100vh">
 		<div class="homeImg"></div>
 		<i-row>
-			<i-card title="7月目标：96斤"
+			<!-- <i-card title="7月目标：96斤"
 							extra="苏苏"
 							thumb="https://img3.doubanio.com/view/photo/m/5DpfCqw-7yK1_4YSpTVm3Q/219397741/x2614100162.jpg"
 							i-class="susu">
@@ -19,7 +19,7 @@
 				<view slot="footer"
 							style="color:blue"
 							@click="handleClick">编辑</view>
-			</i-card>
+			</i-card> -->
 		</i-row>
 		<ff-canvas id="column"
 							 canvas-id="column"
