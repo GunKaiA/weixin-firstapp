@@ -22,7 +22,7 @@
       "iconPath": "static/images/radish_ash.png",
       "selectedIconPath": "static/images/radish.png"
     }, {
-      "text": "历史记录",
+      "text": "分类",
       "pagePath": "pages/logs/main",
       "iconPath": "static/images/奶茶_ash.png",
       "selectedIconPath": "static/images/奶茶.png"
@@ -34,7 +34,7 @@
       "icon": "static/images/radish_ash.png",
       "activeIcon": "static/images/radish.png"
     }, {
-      "name": "历史记录",
+      "name": "分类",
       "pagePath": "pages/logs/main",
       "icon": "static/images/奶茶_ash.png",
       "activeIcon": "static/images/奶茶.png"
