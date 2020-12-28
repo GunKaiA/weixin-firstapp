@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/main",
     "pages/logs/main",
-    "pages/counter/main"
+    "pages/counter/main",
+    "pages/user/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,29 +17,26 @@
     "selectedColor": "#333",
     "borderStyle": "white",
 
-    "list": [{
-      "text": "首页",
-      "pagePath": "pages/index/main",
-      "iconPath": "static/images/radish_ash.png",
-      "selectedIconPath": "static/images/radish.png"
-    }, {
-      "text": "分类",
-      "pagePath": "pages/logs/main",
-      "iconPath": "static/images/奶茶_ash.png",
-      "selectedIconPath": "static/images/奶茶.png"
-    }],
-
-    "items": [{
-      "name": "首页",
-      "pagePath": "pages/index/main",
-      "icon": "static/images/radish_ash.png",
-      "activeIcon": "static/images/radish.png"
-    }, {
-      "name": "分类",
-      "pagePath": "pages/logs/main",
-      "icon": "static/images/奶茶_ash.png",
-      "activeIcon": "static/images/奶茶.png"
-    }],
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/images/home2.png",
+        "selectedIconPath": "static/images/home1.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/logs/main",
+        "iconPath": "static/images/classify2.png",
+        "selectedIconPath": "static/images/classify1.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/user/main",
+        "iconPath": "static/images/user2.png",
+        "selectedIconPath": "static/images/user1.png"
+      }
+    ],
     "position": "bottom"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "navigationBarTitleText": "猫咪月记",
+  "navigationBarTitleText": "租房小程序",
   "enablePullDownRefresh": true,
   "usingComponents": {
     "i-button": "/static/iview/button/index",
     "i-row": "/static/iview/row/index",
-    "i-col": "/static/iview/col/index",
-    "i-card": "/static/iview/card/index",
-    "ff-canvas": "/static/f2-canvas/f2-canvas"
+    "i-tag": "/static/iview/tag/index"
   }
 }
