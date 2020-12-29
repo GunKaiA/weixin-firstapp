@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main",
+    "pages/classify/main",
+    "pages/details/main",
     "pages/user/main"
   ],
   "window": {
@@ -26,7 +26,7 @@
       },
       {
         "text": "分类",
-        "pagePath": "pages/logs/main",
+        "pagePath": "pages/classify/main",
         "iconPath": "static/images/classify2.png",
         "selectedIconPath": "static/images/classify1.png"
       },

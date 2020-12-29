@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "房屋详情",
+  "usingComponents": {
+    "i-button": "/static/iview/button/index",
+    "i-icon": "/static/iview/icon/index",
+    "i-tag": "/static/iview/tag/index"
+  }
+}
